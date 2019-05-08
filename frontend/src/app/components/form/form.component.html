@@ -5,31 +5,31 @@
     <div class="form-item">
         <label class="label-title">Nombre Completo</label>
         <div class="form-div-input">
-            <input [(ngModel)]="name" type="text" required>
+            <input [(ngModel)]="name" type="text" class="form-input" required>
         </div>
     </div>
     <div class="form-item">
         <label class="label-title">Email</label>
         <div class="form-div-input">
-            <input [(ngModel)]="email" type="email" required>
+            <input [(ngModel)]="email" type="email" class="form-input" required>
         </div>
     </div>
     <div class="form-item">
         <label class="label-title">Celular</label>
         <div class="form-div-input">
-            <input [(ngModel)]="cellphone_number" type="number" required>
+            <input [(ngModel)]="cellphone_number" type="number" class="form-input" required>
         </div>
     </div>
     <div class="form-item">
         <label class="label-title">Edad (De 18 a 100 años)</label>
         <div class="form-div-input">
-            <input [(ngModel)]="age" type="number" required>
+            <input [(ngModel)]="age" type="number" class="form-input" required>
         </div>
     </div>
     <div>
         <label>&nbsp;</label>
         <div>
-            <button type="submit" (click)="storeForm()">
+            <button class="form-button" type="submit" (click)="storeForm()">
                  Enviar Datos
                 </button>
         </div>

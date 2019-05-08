@@ -7,6 +7,9 @@
 @media screen and (min-width:720px) {
     .body-form {
         width: 25%;
-        background: #e9e5ed;
     }
+}
+
+.body-form {
+    background: #e9e5ed;
 }
