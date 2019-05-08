@@ -1,0 +1,43 @@
+.nav-styles {
+    background: #3f8edf;
+    height: 40px;
+}
+
+.menu__ul {
+    list-style: none;
+    float: left;
+    width: 50%;
+}
+
+.menu__item {
+    margin-right: 18px;
+    margin-bottom: 7px;
+    background: #3f8edf;
+    padding: 8px 47px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+@media screen and (min-width:0px) {
+    .menu__link {
+        color: #FFFFFF;
+        text-decoration: none;
+        font-family: sans-serif;
+    }
+    .menu__link__hover:hover {
+        color: black;
+    }
+}
+
+@media screen and (min-width:720px) {
+    .menu__item {
+        display: block;
+        float: left;
+        padding: 8px 22px;
+    }
+    .menu__ul {
+        margin: 0;
+        padding: 0;
+        width: 30%;
+    }
+}

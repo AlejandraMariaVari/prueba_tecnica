@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+
+.page-container {
+    display: grid;
+}
+
+@media screen and (min-width:720px) {
+    .body-form {
+        width: 25%;
+        background: #e9e5ed;
+    }
+}
